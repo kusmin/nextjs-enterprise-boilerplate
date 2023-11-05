@@ -1,6 +1,11 @@
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "../lp-items"
 
+/**
+ * Renders the Web component.
+ *
+ * @return The rendered Web component.
+ */
 export default function Web() {
   return (
     <>

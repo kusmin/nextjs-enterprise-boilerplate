@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix",
     "prettier": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",
     "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
+    "gendocs": "typedoc",
     "analyze": "cross-env ANALYZE=true yarn build",
     "storybook": "cross-env FORCE_COLOR=1 storybook dev -p 6006",
     "test-storybook": "cross-env FORCE_COLOR=1 test-storybook",
@@ -79,6 +80,7 @@
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^14.0.0",
     "@total-typescript/ts-reset": "^0.5.1",
+    "@types/jest": "^29.5.7",
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.35",
     "@types/react-dom": "^18.2.14",
@@ -109,7 +111,8 @@
     "tailwindcss": "^3.3.5",
     "ts-jest": "^29.1.1",
     "tsc": "^2.0.4",
-    "typescript": "5.2.2",
+    "typedoc": "^0.25.3",
+    "typescript": "^5.2.2",
     "webpack": "5.89.0"
   },
   "engines": {
