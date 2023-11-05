@@ -3,6 +3,7 @@
 Bem-vindo ao Next.js Boilerplate, um modelo open-source para projetos empresariais! Ele está carregado com recursos que ajudarão você a construir um aplicativo de alta performance, manutenível e agradável. Nós fizemos todo o trabalho pesado por você, então relaxe, sente-se e prepare-se para conquistar o mundo com seu aplicativo incrível! 🌍
 
 ### 📚 Recursos
+
 Com este modelo, você obtém toda a incribilidade de que precisa:
 
 🏎️ Next.js - Rápido por padrão, com configuração otimizada para performance
@@ -30,13 +31,17 @@ Com este modelo, você obtém toda a incribilidade de que precisa:
 💻 T3 Env - Gerencie suas variáveis de ambiente com facilidade
 
 ### 🤖 ChatGPT Code Review
+
 Utilize o poder das revisões de código assistidas por AI para manter a qualidade e a limpeza do código. Integrações com ChatGPT permitem que você aproveite as revisões de código automatizadas para detectar problemas comuns e sugerir melhorias.
 
 ### 💻 Manipulação de Variáveis de Ambiente
+
 Gerenciar suas variáveis de ambiente é essencial para a segurança e a configuração adequada do seu aplicativo. Com T3 Env, você pode facilmente configurar e gerenciar variáveis de ambiente para seus projetos, mantendo a sensibilidade e a especificidade do ambiente em mente.
 
 ### 🤝 Contribuição
+
 Contribuições são bem-vindas! Se você tem uma ideia ou uma melhoria para o projeto, não hesite em abrir uma issue ou criar um pull request. Certifique-se de seguir as diretrizes de contribuição fornecidas.
 
 ### 💌 Suporte
+
 Se você gosta deste boilerplate, considere apoiar o projeto. Todo tipo de suporte é apreciado, seja ele contribuições de código, feedback, ou até mesmo um café para a equipe de desenvolvimento!
