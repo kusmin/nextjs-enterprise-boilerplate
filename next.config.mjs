@@ -10,10 +10,10 @@ const config = withPlugins([[withBundleAnalyzer({ enabled: env.ANALYZE })]], {
   experimental: { instrumentationHook: true },
   rewrites() {
     return [
-      { source: "/healthz", destination: "/api/health" },
-      { source: "/api/healthz", destination: "/api/health" },
-      { source: "/health", destination: "/api/health" },
-      { source: "/ping", destination: "/api/health" },
+      { source: "/healthz", destination: "/health" },
+      { source: "/api/healthz", destination: "/health" },
+      { source: "/health", destination: "/health" },
+      { source: "/ping", destination: "/health" },
     ]
   },
 })

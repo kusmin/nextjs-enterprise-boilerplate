@@ -1,9 +1,12 @@
 import { render } from "@testing-library/react"
 import { AppProps } from "next/app"
-import MyApp from "./_app"
+import MyApp from "./layout"
+import {describe,it, expect} from "@jest/globals";
+import { NextRouter } from 'next/router';
+
 
 // Mock router object with required properties
-const router = {
+const mockedRouter: Partial<NextRouter> = {
   basePath: "",
   pathname: "/",
   query: {},
@@ -20,7 +23,7 @@ describe("MyApp", () => {
         </>
       ),
       pageProps: { title: "Test Page" },
-      router: router as never, // Include mocked router object in props
+      router: mockedRouter as never, // Include mocked router object in props
     }
     const { getByText } = render(<MyApp {...props} />)
     expect(getByText("Test Component")).toBeInTheDocument()
