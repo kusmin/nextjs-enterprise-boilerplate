@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 18.x, 20.x]
+        node-version: [ 20.x]
 
     steps:
       - uses: actions/checkout@v3
@@ -27,7 +27,30 @@ jobs:
         run: yarn playwright install
 
       - name: Install WebKit dependencies
-        run: sudo apt-get install -y libicu-dev
+        run: sudo apt-get install -y \
+              libsoup3.0 libsoup-3.0-0 \
+              libwoff1 \
+              libvpx6 \
+              libevent-2.1-7 \
+              libopus0 \
+              libharfbuzz-icu0 \
+              gstreamer1.0-allocators \
+              gstreamer1.0-app \
+              gstreamer1.0-pbutils \
+              gstreamer1.0-audio \
+              gstreamer1.0-tag \
+              gstreamer1.0-video \
+              gstreamer1.0-gl \
+              gstreamer1.0-plugins-bad \
+              libgstcodecparsers-1.0-0 \
+              libgstfft-1.0-0 \
+              libhyphen0 \
+              libmanette-0.2-0 \
+              flite \
+              flite1-dev \
+              libgles2 \
+              libx264-155
+
 
       - name: Run linter
         run: yarn lint
