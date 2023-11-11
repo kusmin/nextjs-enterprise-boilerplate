@@ -27,7 +27,7 @@ jobs:
         run: yarn playwright install
 
       - name: Install WebKit dependencies
-        run: sudo apt-get install -y \
+        run: sudo apt-get update && sudo apt-get install -y \
               libsoup3.0 libsoup-3.0-0 \
               libwoff1 \
               libvpx6 \
