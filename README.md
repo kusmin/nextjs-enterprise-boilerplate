@@ -84,6 +84,30 @@ yarn install --frozen-lockfile
 3. Run the development server:
 
 ```bash
+<!-- Error Logs Start -->
+Error Log 1:
+[timestamp]: [error message]
+
+Error Log 2:
+[timestamp]: [error message]
+<!-- Error Logs End -->
+UpdatedErrorLog 1:
+[timestamp]: [error message]
+
+UpdatedErrorLog 2:
+[timestamp]: [error message]
+
+```bash
+<!-- Error Logs Start -->
+Error Log 1:
+[timestamp]: [error message]
+
+Error Log 2:
+[timestamp]: [error message]
+<!-- Error Logs End -->
+```
+
+```bash
 yarn dev
 ```
 
