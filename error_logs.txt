@@ -1,0 +1,7 @@
+Error Log 1:
+[timestamp]: [error message]
+
+Error Log 2:
+[timestamp]: [error message]
+
+...
